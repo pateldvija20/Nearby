@@ -1,0 +1,99 @@
+{
+  "magenta": {
+    "300": { "value": "#FF8FC6", "type": "color" },
+    "400": { "value": "#FF57A8", "type": "color" },
+    "500": { "value": "#FF1E8C", "type": "color" },
+    "600": { "value": "#D6006B", "type": "color" },
+    "700": { "value": "#A30050", "type": "color" }
+  },
+  "red": {
+    "400": { "value": "#FF5C5C", "type": "color" },
+    "500": { "value": "#FF2020", "type": "color" },
+    "600": { "value": "#D40000", "type": "color" }
+  },
+  "blue": {
+    "300": { "value": "#8FB4FF", "type": "color" },
+    "400": { "value": "#5590FF", "type": "color" },
+    "500": { "value": "#0F5FF5", "type": "color" },
+    "600": { "value": "#0040C2", "type": "color" }
+  },
+  "sky": {
+    "100": { "value": "#EAF7FE", "type": "color" },
+    "200": { "value": "#D2EFFC", "type": "color" },
+    "300": { "value": "#BFE9FB", "type": "color" },
+    "400": { "value": "#8FD5F5", "type": "color" }
+  },
+  "neutral": {
+    "0": { "value": "#FFFFFF", "type": "color" },
+    "50": { "value": "#F7F7F8", "type": "color" },
+    "100": { "value": "#EDEDEF", "type": "color" },
+    "200": { "value": "#D6D6DA", "type": "color" },
+    "300": { "value": "#ABABB3", "type": "color" },
+    "400": { "value": "#7C7C85", "type": "color" },
+    "500": { "value": "#55555D", "type": "color" },
+    "600": { "value": "#38383E", "type": "color" },
+    "700": { "value": "#26262A", "type": "color" },
+    "800": { "value": "#17171A", "type": "color" },
+    "900": { "value": "#0D0D0F", "type": "color" },
+    "1000": { "value": "#000000", "type": "color" }
+  },
+  "green": { "500": { "value": "#16C47F", "type": "color" } },
+  "amber": { "500": { "value": "#FFB020", "type": "color" } },
+  "bg": {
+    "canvas": { "value": "{neutral.1000}", "type": "color" },
+    "surface": { "value": "{neutral.900}", "type": "color" },
+    "raised": { "value": "{neutral.800}", "type": "color" },
+    "sunken": { "value": "{neutral.1000}", "type": "color" },
+    "inverse": { "value": "{neutral.0}", "type": "color" },
+    "accent": { "value": "{magenta.500}", "type": "color" },
+    "accent-soft": { "value": "{magenta.700}", "type": "color" }
+  },
+  "text": {
+    "primary": { "value": "{neutral.0}", "type": "color" },
+    "secondary": { "value": "{neutral.300}", "type": "color" },
+    "tertiary": { "value": "{neutral.400}", "type": "color" },
+    "inverse": { "value": "{neutral.1000}", "type": "color" },
+    "accent": { "value": "{magenta.400}", "type": "color" },
+    "on-accent": { "value": "{neutral.0}", "type": "color" }
+  },
+  "border": {
+    "subtle": { "value": "{neutral.800}", "type": "color" },
+    "default": { "value": "{neutral.700}", "type": "color" },
+    "strong": { "value": "{neutral.600}", "type": "color" },
+    "accent": { "value": "{magenta.500}", "type": "color" }
+  },
+  "heat": {
+    "mine": { "value": "{magenta.500}", "type": "color" },
+    "friends": { "value": "{blue.500}", "type": "color" },
+    "hot": { "value": "{red.500}", "type": "color" },
+    "undiscovered": { "value": "{sky.300}", "type": "color" }
+  },
+  "status": {
+    "success": { "value": "{green.500}", "type": "color" },
+    "warning": { "value": "{amber.500}", "type": "color" },
+    "danger": { "value": "{red.500}", "type": "color" }
+  },
+  "sp": {
+    "2": { "value": "2", "type": "spacing" },
+    "4": { "value": "4", "type": "spacing" },
+    "8": { "value": "8", "type": "spacing" },
+    "12": { "value": "12", "type": "spacing" },
+    "16": { "value": "16", "type": "spacing" },
+    "20": { "value": "20", "type": "spacing" },
+    "24": { "value": "24", "type": "spacing" },
+    "32": { "value": "32", "type": "spacing" },
+    "40": { "value": "40", "type": "spacing" },
+    "48": { "value": "48", "type": "spacing" },
+    "64": { "value": "64", "type": "spacing" },
+    "80": { "value": "80", "type": "spacing" }
+  },
+  "r": {
+    "xs": { "value": "4", "type": "borderRadius" },
+    "sm": { "value": "8", "type": "borderRadius" },
+    "md": { "value": "12", "type": "borderRadius" },
+    "lg": { "value": "16", "type": "borderRadius" },
+    "xl": { "value": "24", "type": "borderRadius" },
+    "2xl": { "value": "32", "type": "borderRadius" },
+    "full": { "value": "999", "type": "borderRadius" }
+  }
+}
