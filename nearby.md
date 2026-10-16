@@ -36,6 +36,8 @@ Luma, Partiful, Beli, Citymapper
 
 2026-10-14 (5): Full app map built in Figma 'Nearby — App map': spine Onboarding → Home → Build a crawl → Walk → Finish + story (connected screen-to-screen), tabs Map · Diary (entries + wishlist) · Profile, System states. Decisions: steps count from Start walk; guest until first crawl (taste/diet/goal collected in first C1, sign-up at end of first crawl); tabs Home(discovery) · Map(Explore default, toggle Mine) · Diary(wishlist + entries) · Profile; wishlist = places + dishes; 3 story templates; coupon = one per crawl, only if every stop visited + every dish photo matched, from a place on the crawl, used on a later crawl there, code + expiry; app closed ends crawl; abandoned crawl keeps running + reminder notification.
 
+2026-10-16: Decided: competitive analysis is one page, a coverage matrix (8 apps x 6 journey steps, with a falls-short column and a table-stakes / differentiator / avoid strip), replacing the affinity map, 2x2 and takeaways; page 02 (Brand analysis) removed from the Figma file; first benchmark flow = Build a crawl against Strava, AllTrails, Google Maps and Wanderboat AI; Mobbin student Pro (about $22 for 3 months) for flows, Wanderboat AI via Dvija's own screen recording (not on Mobbin). Rejected: separate per-competitor brand profiles. Why: the old analysis answered brand vibe, not where apps fall short for the guilt-free foodie. Next: benchmark on page 04, then Dvija's sketch -> black-and-white boilerplate. Open: whether Mobbin Pro is bought; matrix dot ratings need verifying.
+
 ## Local files
 - `~/Downloads/nearby-case-study.md`
 - `~/Downloads/nearby-figma` (folder)
